@@ -7,6 +7,9 @@ import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
+/**
+ * 反射工具类
+ */
 public class ReflectionUtil {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ReflectionUtil.class);

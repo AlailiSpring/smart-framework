@@ -10,11 +10,9 @@ import java.util.Properties;
 public final class PropsUtil {
     private static final org.slf4j.Logger LOGGER = LoggerFactory.getLogger(PropsUtil.class);
 
-
     public static Properties loadProps(String fileName) {
         Properties props = null;
         InputStream is = null;
-
         try {
             is = Thread.currentThread().getContextClassLoader().getResourceAsStream(fileName);
             if (is == null) {
