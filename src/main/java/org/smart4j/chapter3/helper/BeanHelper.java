@@ -9,7 +9,7 @@ import java.util.Set;
 /**
  * Bean  助手类
  */
-public class BeanHelper {
+public final class BeanHelper {
 
     /**
      *  定义Bean映射（存放Bean与实例之间的映射关系）

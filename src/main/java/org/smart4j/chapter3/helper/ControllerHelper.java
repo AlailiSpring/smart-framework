@@ -1,4 +1,4 @@
-package org.smart4j.chapter3.util;
+package org.smart4j.chapter3.helper;
 
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.ArrayUtils;
@@ -17,7 +17,7 @@ import java.util.Set;
  * @Author: LiBaoDeng
  * @Date: 2018-09-03 17:59
  */
-public class ControllerHelper {
+public final class ControllerHelper {
 
     /**
      * 存放请求与处理器映射关系

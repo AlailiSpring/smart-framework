@@ -10,7 +10,7 @@ import java.util.Set;
 /**
  * 类操作助手类
  */
-public class ClassHelper {
+public final class ClassHelper {
 
     private static Set<Class<?>> CLASS_SET = new HashSet<Class<?>>();
 

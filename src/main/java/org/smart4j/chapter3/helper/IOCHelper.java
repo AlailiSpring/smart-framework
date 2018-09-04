@@ -1,9 +1,10 @@
-package org.smart4j.chapter3.util;
+package org.smart4j.chapter3.helper;
 
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.ArrayUtils;
 import org.smart4j.chapter3.annotation.Inject;
 import org.smart4j.chapter3.helper.BeanHelper;
+import org.smart4j.chapter3.util.ReflectionUtil;
 
 import java.lang.reflect.Field;
 import java.util.Collection;
@@ -19,7 +20,7 @@ import java.util.Map;
  * @Author: LiBaoDeng
  * @Date: 2018-09-01 18:56
  */
-public class IOCHelper {
+public final class IOCHelper {
     static {
         Map<Class<?>, Object> beanMap = BeanHelper.getBeanMap();
         if(CollectionUtils.isNotEmpty((Collection<?>) beanMap)){
